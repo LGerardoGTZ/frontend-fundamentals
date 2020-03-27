@@ -1,0 +1,15 @@
+body{
+    text-align: bottom;
+    font-weight: bold;
+}
+
+
+.container{
+    
+    display: grid;
+    grid-template: 200px 200px 200px/ 1fr 1fr 1fr;
+    column-gap: 5px;
+
+
+}
+

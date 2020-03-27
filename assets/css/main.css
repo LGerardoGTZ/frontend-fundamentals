@@ -96,3 +96,13 @@ a:hover{
 .search-button:active{
     color:gray;
 }
+
+#icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}

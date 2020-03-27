@@ -1,15 +1,33 @@
-body{
-    text-align: bottom;
+ h3, p{
+    
     font-weight: bold;
+    text-align: center;
+    
 }
 
 
 .container{
     
     display: grid;
-    grid-template: 200px 200px 200px/ 1fr 1fr 1fr;
-    column-gap: 5px;
+    /* grid-template-rows: 200px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "mexico" "colombia" "paris";
 
 
 }
 
+/* .image-destination{
+    object-fit: cover;
+} */
+
+.mexico{
+    grid-area: mexico;
+}
+
+.colombia{
+    grid-area: colombia;
+}
+
+.paris{
+    grid-area: paris;
+}

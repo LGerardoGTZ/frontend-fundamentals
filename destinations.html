@@ -5,19 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destinations</title>
     <link rel="stylesheet" href="./assets/css/destinations/destinations.css">
+    <link rel="stylesheet" href="./assets/css/common/header.css">
+    <link rel="stylesheet" href="./assets/css/common/footer.css">
 </head>
 <body>
+    <nav>
+        <div>
+          <a href="#">
+            <img src="./assets/images/bedu_logo.png" alt="bedu logo" id="bedu-logo">
+          </a>
+        </div>
+        <div>
+          <a href="#">Sign In</a>
+          <a href="#">Sign Out</a>
+        </div>
+      </nav>
+    
     <h3>Destinos preferidos</h3> 
     <p>Mira nuestros destinos favoritos alrededor del mundo</p>
-    <div class="container"> 
-        <!-- <figure class="destinations-photos">  -->
-            <div class="item"><img class="image-destination mexico" src="assets/images/destinations/Sesion04-FlexBoxYTheGrid_Ejemplo02_assets_images_cdmx.jpeg" width="400px" height="200px" alt="cdmx">Ciudad de México</div>
-            <div class="item"><img class="image-destination colombia" src="assets/images/destinations/Sesion04-FlexBoxYTheGrid_Ejemplo02_assets_images_colombia.jpg" width="400px" height="200px" alt="colombia">Colombia</div>
-            <div class="item"><img class="image-destination paris" src="assets/images/destinations/Sesion04-FlexBoxYTheGrid_Ejemplo02_assets_images_francia.jpg" width="400px" height="200px" alt="francia">París</div>
+    <section class="destinations">
+      <figure class="city-images">
+        <img class="image-destination" src="assets/images/destinations/Sesion04-FlexBoxYTheGrid_Ejemplo02_assets_images_cdmx.jpeg" alt="cdmx"><span class="city-names">Ciudad de México</span>
+      </figure>
+      <figure class="city-images">
+        <img class="image-destination" src="assets/images/destinations/Sesion04-FlexBoxYTheGrid_Ejemplo02_assets_images_colombia.jpg" alt="colombia"><span class="city-names">Colombia</span>
+      </figure>
+      <figure class="city-images">
+        <img class="image-destination" src="assets/images/destinations/Sesion04-FlexBoxYTheGrid_Ejemplo02_assets_images_francia.jpg"  alt="francia"><span class="city-names">París</span>
+      </figure>
+    </section>
+    
 
-        <!-- </figure> -->
-
-    </div>
+    
+        <footer class="footer">
+          <ul class="contact">
+            <li>Bedu travels</li>
+            <li>hola@bedutravels</li>
+          </ul>
+          <a class="social-media" href="#">
+            <figure>
+            <img src="./assets/images/Sesion01-HTMLyCSSBasico_ActividadFinal_assets_images_facebook.svg"
+              width="30px" alt="facebook">
+            </figure>
+          </a>
+          
+          <a class="social-media" href="#">
+              <figure>
+              <img src="./assets/images/Sesion01-HTMLyCSSBasico_ActividadFinal_assets_images_twitter.svg"
+                width="30px" alt="twitter">
+              </figure>
+          </a>
+          
+          <a class="social-media" href="#">
+             <figure>
+             <img src="./assets/images/Sesion01-HTMLyCSSBasico_ActividadFinal_assets_images_instagram.svg"
+                width="30px" alt="instagram">
+             </figure>
+          </a>
+        </footer>
+    
     
 </body>
 </html>

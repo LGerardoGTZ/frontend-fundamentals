@@ -10,36 +10,33 @@
     margin-top: 10px;
     
 }
-body{
+/* body{
     height: 90vh;
-}
+} */
 
 
 .destinations{
     
-    height: 70vh;
+    /* height: 70vh; */
     display: grid;
     margin-top: 20px;
     /* grid-template-rows: 200px; */
-    grid-template-columns: repeat(3, minmax(300px, 350px));
+    grid-template-columns: repeat(3, minmax(300px, 340px) );
     justify-content: center;
     align-content: center;
-    column-gap: 10px;
+    column-gap: 15px;
+    row-gap: 15px;
+    text-align: center;
     
 }
 
-.image-destination{
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-align: center;
+ img{
+   width: 100%;
+   height: 100%;
 }
+
+
+    
 .city-images{
-    margin: 0em;
+    margin: 0;
 }
-
-div .item{
-    text-align: center;
-}
-
-

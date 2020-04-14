@@ -34,7 +34,7 @@ color: #ffffff;
 .title-font{
     font-size: 30px;
 }
-.subtitle-font{
+.subtitle{
     font-size: 20px;
 }
 
@@ -50,7 +50,7 @@ color: #ffffff;
  border-radius: 5px;
 }
 
-.searchbar> input{
+.searchbar input{
     width: 100%;
     padding: 0;
     margin: 0;
@@ -97,12 +97,13 @@ a:hover{
     color:gray;
 }
 
-#icons-container{
+.container{
+    margin-top: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    height: 10vh;
+    /* height: 10vh; */
     width: 100%;
     color: black;
 }

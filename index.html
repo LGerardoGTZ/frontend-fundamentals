@@ -8,20 +8,30 @@
   <link href="./assets/css/home/main.css " rel="stylesheet" type="text/css">
   <link href="assets/css/common/header.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/common/footer.css">
+  <link rel="stylesheet" href="./assets/css/queries/queries.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
 <body>
-  <nav>
+  <nav id="navbar">
     <div>
-      <a href="#">
+      <a href="./landing.html">
         <img src="./assets/images/bedu_logo.png" alt="bedu logo" id="bedu-logo">
       </a>
     </div>
-    <div>
+    <div class="mobile">
       <a href="#">Sign In</a>
       <a href="#">Sign Out</a>
+    </div>
+    <div class="dropdown desktop">
+      <button class="dropbtn">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Sign In</a>
+      <a href="#">Sign Out</a>
+      </div>
     </div>
   </nav>
  
@@ -33,14 +43,14 @@
     </div>
 
     <div class="searchbar">
-      <input type="text" placeholder="¿A donde vas?">
+      <input class="input-text" type="text" placeholder="¿A donde vas?">
       <button class="search-button">
         <i class="fas fa-search"></i>
       </button>
 
     </div>
-
   </section>
+  
   <section class="destinations">
     <h3>Destinos preferidos</h3>
     <section class="container">
@@ -50,22 +60,34 @@
     </section>
   </section>    
 
-  <section class="footer">
-    <footer>
-      <ul class="contact">
-        <li>Bedu travels</li>
-        <li>hola@bedutravels</li>
-      </ul>
-      <figure class="social-media-icons">
-        <a href="#"><img src="./assets/images/Sesion01-HTMLyCSSBasico_ActividadFinal_assets_images_facebook.svg"
-            width="30px" alt="facebook"></a>
-        <a href="#"><img src="./assets/images/Sesion01-HTMLyCSSBasico_ActividadFinal_assets_images_twitter.svg"
-            width="30px" alt="twitter"></a>
-        <a href="#"><img src="./assets/images/Sesion01-HTMLyCSSBasico_ActividadFinal_assets_images_instagram.svg"
-            width="30px" alt="instagram"></a>
+  
+  <footer class="footer">
+    <ul class="contact">
+      <li>Bedu travels</li>
+      <li>hola@bedutravels</li>
+    </ul>
+    <a class="social-media" href="#">
+      <figure>
+        <img src="./assets/images/Sesion01-HTMLyCSSBasico_ActividadFinal_assets_images_facebook.svg" width="30px"
+          alt="facebook">
       </figure>
-    </footer>
-  </section>
+    </a>
+
+    <a class="social-media" href="#">
+      <figure>
+        <img src="./assets/images/Sesion01-HTMLyCSSBasico_ActividadFinal_assets_images_twitter.svg" width="30px"
+          alt="twitter">
+      </figure>
+    </a>
+
+    <a class="social-media" href="#">
+      <figure>
+        <img src="./assets/images/Sesion01-HTMLyCSSBasico_ActividadFinal_assets_images_instagram.svg" width="30px"
+          alt="instagram">
+      </figure>
+    </a>
+  </footer>
+  
 
 
 

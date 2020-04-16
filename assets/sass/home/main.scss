@@ -1,0 +1,83 @@
+@import '../variables/variables';
+@import '../resets/resets';
+@import '../mixins/mixins';
+@import '../functions/functions';
+
+
+body{
+  font-family: $roboto;
+  height: map-get($viewport-height-width  , high ) - 10;
+  overflow-y: scroll;
+}
+
+#home-cover {
+background-image: url("/Users/gerargtz/Documents/Projects/frontend-fundamentals/assets/images/Sesion01-HTMLyCSSBasico_ActividadFinal_assets_images_img_cover_home.jpg");
+width: $full;
+height: map-get($viewport-height-width , tall ) +  20 ;
+background-repeat: no-repeat;
+background-position: center;
+@include flexCenter( center, center, column);
+text-align: center;
+color: $colorWhite;
+}
+
+.title-font{
+  font-size: $lg;
+}
+.subtitle{
+  font-size: $medium;
+}
+
+.searchbar{
+background-color: $colorWhite;
+padding-left: $small - 5;
+padding: 3px;
+width: $full * 5;
+@include flexCenter (space-between,);
+box-shadow: 14px 14px 28px $textShadow;
+border-radius: 5px;
+& input{
+  width: $full;
+  padding: 0;
+  margin: 0;
+  font-size: $small;
+  border: none;
+  height: $xlg - 5;
+  }
+  & button{
+    height: $xlg - 5;
+    width: $xlg - 5;
+    background-color: $deepGray;
+    color: $colorWhite;
+    border-radius: 5px;
+  }
+}
+
+.margin-bottom-sm{
+  & .margin-bottom-md{
+    margin-bottom: $lg;
+  }
+}
+
+h3{
+  font-weight: bold;
+  text-align: center;
+}
+
+a:hover{
+  color:#969191;
+}
+
+.search-button:active{
+  color:gray;
+}
+
+.container{
+  margin-top: $xlg;
+  @include flexCenter (center, space-evenly);
+  flex-wrap: wrap;
+  width: 100%;
+  color: $solidBlack;
+}
+
+

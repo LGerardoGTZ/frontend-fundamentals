@@ -1,0 +1,23 @@
+#bedu-logo{
+    margin-left: $medium;
+    width: $xlg;
+
+}
+
+nav{
+    background-color: $navBar-footer;
+    height: $xlg;
+    width: $full;
+    @include flexCenter(flex-end);
+  
+}
+
+nav>div>a{
+    color: $colorWhite;
+    text-decoration: none;
+    padding-right: $medium;
+}
+
+nav>div:first-child{
+    flex-grow: 3;
+}

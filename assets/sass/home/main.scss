@@ -2,7 +2,8 @@
 @import '../resets/resets';
 @import '../mixins/mixins';
 @import '../functions/functions';
-
+@import '../common/header';
+@import '../common/footer';
 
 body{
   font-family: $roboto;
@@ -38,8 +39,8 @@ box-shadow: 14px 14px 28px $textShadow;
 border-radius: 5px;
 & input{
   width: $full;
-  padding: 0;
-  margin: 0;
+  padding: $zero;
+  margin: $zero;
   font-size: $small;
   border: none;
   height: $xlg - 5;

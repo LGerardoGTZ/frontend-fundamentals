@@ -1,0 +1,25 @@
+.footer{
+    background-color: $navBar-footer;
+    width: $full ;
+    height: $full * 1.5;
+    margin-top: $xlg;
+    padding-left: $medium + 2;
+    color: $colorWhite;
+    @include flexCenter(flex-start);
+ 
+    
+}
+
+.contact{
+    color: $colorWhite;
+    width: $small;
+    padding: $xsmall - 3; 
+}
+
+.social-media{
+    width: $medium;
+    margin: $xsmall;
+   
+    
+     
+} 

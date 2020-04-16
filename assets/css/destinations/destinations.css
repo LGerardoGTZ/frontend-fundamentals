@@ -15,28 +15,36 @@
 } */
 
 
-.destinations{
+.destinations {
     
     /* height: 70vh; */
     display: grid;
-    margin-top: 20px;
-    /* grid-template-rows: 200px; */
-    grid-template-columns: repeat(3, minmax(300px, 340px) );
     justify-content: center;
-    align-content: center;
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 300px);
     column-gap: 15px;
     row-gap: 15px;
-    text-align: center;
-    
 }
 
- .image-destination{
+.image-destination{
    width: 300px;
    height: 300px;
 }
-
-
-    
-.city-images{
-    margin: 0;
+fig-caption{
+    display: block;
+    text-align: center;
+  
 }
+
+
+/* media queries para dispositivos pequeños
+    sustituir grid por esto:
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+    /* Otra opció es
+    grid-template-columns: repeat(1, 300px);
+    para dispositvos chicos y 
+    grid-template-columns: repeat(2, 300px);
+    para dispositvos medianos */

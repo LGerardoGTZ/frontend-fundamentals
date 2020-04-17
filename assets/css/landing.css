@@ -4,3 +4,9 @@
     background-size: cover;
     background-position: butt;
 }
+
+
+.jumbotron-title, .jumbotron-p{
+    text-shadow: 10px 5px 1px #3d3c3b8f;
+    font-size: 1.em;
+}

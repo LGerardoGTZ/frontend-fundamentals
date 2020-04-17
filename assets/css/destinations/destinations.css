@@ -43,8 +43,4 @@ fig-caption{
     flex-direction: column;
     align-items: center; */
 
-    /* Otra opció es
-    grid-template-columns: repeat(1, 300px);
-    para dispositvos chicos y 
-    grid-template-columns: repeat(2, 300px);
-    para dispositvos medianos */
+    
